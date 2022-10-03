@@ -1,4 +1,4 @@
-import getDirName from "../utils/getDirName.js";
+import getDirName from "../utils/get-dir-name.js";
 import compress from "./compress.js";
 
 const file = process.argv[2];
