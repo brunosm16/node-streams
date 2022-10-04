@@ -16,5 +16,8 @@
     "url": "https://github.com/brunosm16/node-streams/issues"
   },
   "homepage": "https://github.com/brunosm16/node-streams#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "chance": "^1.1.8"
+  }
 }
