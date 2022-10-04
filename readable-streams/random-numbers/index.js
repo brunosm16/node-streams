@@ -8,4 +8,6 @@ const printUrl = (chunk) => {
   console.log("\n");
 };
 
-urlGenerator.on("data", (chunk) => printUrl(chunk));
+urlGenerator
+  .on("data", (chunk) => printUrl(chunk))
+  .on("end", () => console.log("urlGenerator stream ended"));
