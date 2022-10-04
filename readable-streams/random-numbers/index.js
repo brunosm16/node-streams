@@ -10,4 +10,4 @@ const printUrl = (chunk) => {
 
 urlGenerator
   .on("data", (chunk) => printUrl(chunk))
-  .on("end", () => console.log("urlGenerator stream ended"));
+  .on("end", () => console.log(`urlGenerator stream ended | emittedBytes : ${urlGenerator.emittedBytes}`));

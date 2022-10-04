@@ -16,6 +16,8 @@ export class GenerateURLs extends Readable {
 
     this.push(randomNumber, "utf-8");
 
+    this.emittedBytes += randomNumber.length;
+
     const endStream = chance.bool({ likelihood: 30 });
 
     if (endStream) this.push(null);
