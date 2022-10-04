@@ -11,4 +11,4 @@ process.stdin.on("readable", () => {
   while ((chunk = process.stdin.read()) !== null) {
     printChunk(chunk);
   }
-});
+}).on('end', () => console.log('Read process ended'));
