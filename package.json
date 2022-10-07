@@ -18,6 +18,7 @@
   "homepage": "https://github.com/brunosm16/node-streams#readme",
   "type": "module",
   "dependencies": {
-    "chance": "^1.1.8"
+    "chance": "^1.1.8",
+    "csv-parser": "^3.0.0"
   }
 }
