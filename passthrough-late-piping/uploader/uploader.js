@@ -3,7 +3,7 @@ import { basename, join } from "path";
 import { createBrotliCompress } from "zlib";
 import { PassThrough } from "stream";
 import { upload } from "./upload.js";
-import getDirName from "../utils/get-dir-name.js";
+import getDirName from "../../utils/get-dir-name.js";
 
 const __dirname = getDirName(import.meta.url);
 
@@ -15,7 +15,6 @@ const contentStream = new PassThrough();
 const host = "http://localhost:3000";
 
 const onSuccess = (response) => {
-  console.log(`Server response : ${response.data}`);
   console.log(`Server status : ${response.status}`);
 };
 
