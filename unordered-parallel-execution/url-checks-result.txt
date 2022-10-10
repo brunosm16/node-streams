@@ -1,0 +1,4 @@
+https://non-existent.io/ | NOT OK
+https://www.notion.so/ | OK
+https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl | OK
+https://pomofocus.io/ | OK
